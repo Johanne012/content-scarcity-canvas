@@ -1,67 +1,108 @@
 # Content Scarcity Canvas
 
-**A practical one-page framework to turn abundant content into scarce value.**
+**Limited Digital Products — Sales close permanently on 31 January 2027**
 
-Generated as a single digital artifact — August 2026.
-
----
-
-## The Core Principle
-
-In an age of infinite content, value is no longer created by producing more.  
-Value is created by deliberately making something **harder to get**, **limited in quantity**, **tied to time**, or **tied to a real human presence**.
-
-Scarcity is not a marketing trick — it is a design decision.
+This is not an open-ended offer.  
+After **31 January 2027**, no new purchases will be accepted.
 
 ---
 
-## The 5 Scarcity Levers for Content
+## Why This Exists
 
-| Lever | How to apply it |
-|-------|------------------|
-| **1. Access** | Make part of the content available only to a limited group (waitlist, paid, invite-only). |
-| **2. Quantity** | Cap the number of people who can get it, or the number of pieces you will ever release. |
-| **3. Time** | Make it available only for a short, clear window. Then remove or close it permanently. |
-| **4. Depth** | In a sea of shallow AI content, real experience, sharp opinion, and lived detail become rare. |
-| **5. Presence** | Limit direct access to you (replies, calls, feedback). Your attention is the scarcest asset. |
+Most content advice tells you to publish more.  
+This framework teaches the opposite: how to create value by making content **scarcer**, not more abundant.
+
+Built on the same principle that made the Million Dollar Homepage work: limited supply + clear deadline + ownership.
 
 ---
 
-## How to Use This Canvas
+## Products
 
-1. Choose **one primary lever** only. Mixing too many weakens the effect.
-2. Make the limit **visible and believable**. Vague scarcity is ignored.
-3. Tie the scarcity to a real constraint (your time, quality standard, or a hard number).
-4. Deliver higher perceived value inside the scarce version — never just the same content behind a wall.
+### 1. Content Scarcity Canvas
+The original one-page framework.
 
----
+- Clear explanation of the 5 scarcity levers
+- Ready-to-use applications
+- Designed as a single digital artifact
 
-## Ready-to-Use Applications
-
-**Newsletter**  
-Public archive is free. The next 4 issues are available only to the first 150 subscribers who join this month.
-
-**Social Content**  
-You reply in depth to only the first 12 comments on selected posts. State it clearly.
-
-**Framework / Guide**  
-Release a complete tool as a one-time PDF. No updates, no second edition. This remains the only version.
-
-**Live Session**  
-One live breakdown session. Recording is never released. Limited to 40 seats.
-
-**Personal Feedback**  
-You offer written feedback on people’s content strategies — only 8 spots per quarter.
+**Price: $29**
 
 ---
 
-## About This Artifact
+### 2. Scarcity Playbook (Expanded)
+The full practical version.
 
-This repository and the original one-page PDF were generated once, as a complete digital artifact, from a single conversation about the Million Dollar Homepage and the principle of scarcity.
+Includes:
+- Extended explanations of each lever
+- Real examples across different content types
+- Templates you can copy and adapt
+- Decision guide: which lever to use when
 
-No second version will be issued.
+**Price: $79**
 
 ---
 
-**Content Scarcity Canvas**  
-Digital Artifact • August 2026 • Created by Grok
+### 3. Complete Bundle (Recommended)
+Everything in one package.
+
+- Content Scarcity Canvas
+- Full Scarcity Playbook
+- Bonus: Implementation checklist + example messages you can use when applying scarcity
+
+**Price: $129**
+
+---
+
+## Payment Options
+
+We accept the following methods only:
+
+| Priority | Method                      | Details |
+|----------|-----------------------------|--------|
+| 1        | **USDT (ERC-20)**           | Preferred – stable value |
+| 2        | **Bitcoin Lightning**       | Fast & low fees |
+| 3        | **Bitcoin On-chain**        | Standard Bitcoin transfer |
+
+### Payment Addresses
+
+**USDT (ERC-20) / Ethereum:**  
+`0xfe94ddcc4799199cea5c4debb0e9d2ebfb7c813d`
+
+**Bitcoin (On-chain):**  
+`bc1q4xr3k7ygeyc7s8nmt0ek4gdcelp6emfudtv99u`
+
+**Bitcoin Lightning:**  
+Contact after choosing the product (invoice will be generated).
+
+> Important:  
+> - For USDT, send **only on Ethereum network (ERC-20)**.  
+> - Sending on any other network will result in permanent loss of funds.
+
+---
+
+## How to Buy
+
+1. Choose your product.
+2. Send the exact amount using one of the accepted methods.
+3. After payment, send a message with:
+   - Transaction ID / hash
+   - Product name
+   - Your email or preferred delivery method
+4. You will receive the files after payment confirmation.
+
+---
+
+## Scarcity Rules
+
+- Sales end permanently on **31 January 2027**.
+- No extensions.
+- No second edition of these specific packages after the deadline.
+- Price is fixed in USD equivalent at the time of payment.
+
+---
+
+## Current Status
+
+**Available until 31 January 2027**
+
+After that date, this offer closes forever.
