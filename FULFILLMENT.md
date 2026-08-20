@@ -1,41 +1,29 @@
-# Fulfillment Guide (Internal)
+# Fulfillment Guide
 
-Manual process until automated verification is production-ready.
+## Automated path (preferred when server is running)
 
-## Steps
+1. Buyer creates order via API or you create it for them
+2. Buyer pays USDT (ERC-20) or BTC on-chain
+3. Call verify endpoint with tx id
+4. System checks blockchain and issues download link
+5. Buyer downloads file (token expires automatically)
 
-1. **Receive order message** (from buyer)
-2. **Verify payment**
-   - USDT ERC-20: check tx on Etherscan for address `0xfe94ddcc4799199cea5c4debb0e9d2ebfb7c813d`
-   - BTC on-chain: check address `bc1q4xr3k7ygeyc7s8nmt0ek4gdcelp6emfudtv99u`
-   - Lightning: confirm invoice paid
-3. **Match amount** to product price (USD equivalent at time of payment)
-4. **Deliver files** to buyer email
-5. **Record order** (date, product, tx, email, status)
+See `payment-automation/README.md`.
 
-## Product files (map)
+## Manual fallback
 
-| Product | Suggested file |
-|---------|----------------|
-| Canvas | CONTENT_SCARCITY_CANVAS.md / PDF |
-| Playbook | (expand from canvas + templates) |
-| Bundle | package of all |
-| Checklist | checklist extract |
-| Templates | message templates |
-| Decision Tool | decision matrix |
+1. Receive order message (`ORDER.md`)
+2. Verify payment:
+   - USDT: Etherscan → address `0xfe94ddcc4799199cea5c4debb0e9d2ebfb7c813d`
+   - BTC: explorer → address `bc1q4xr3k7ygeyc7s8nmt0ek4gdcelp6emfudtv99u`
+3. Match amount to product price
+4. Send digital file to buyer email
+5. Mark order delivered
 
 ## Status values
 
-- `pending` — waiting for payment proof
-- `paid` — payment confirmed
-- `delivered` — files sent
-- `closed` — after 31 Jan 2027 no new orders
-
-## Automation path
-
-LocalStack stack under `localstack-terraform/` supports:
-- `POST /orders` create order
-- `GET /orders/{id}` status
-- `POST /orders/verify` demo verification
-
-Replace demo verify with real chain checks before production use.
+- `pending_payment`
+- `verification_failed`
+- `paid`
+- `delivered`
+- `closed` (after 31 Jan 2027)

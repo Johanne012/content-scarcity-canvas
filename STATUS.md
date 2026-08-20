@@ -7,27 +7,45 @@ Last update: 2026-08-20
 - **Status:** OPEN
 - **Closes:** 31 January 2027 (permanent)
 - **Channels:** GitHub + Vercel storefront
-- **Payment:** Manual USDT (ERC-20) / BTC / Lightning
+- **Payment:** USDT ERC-20 / BTC / Lightning
 
 ## Systems
 
 | System | Status | Notes |
 |--------|--------|-------|
-| GitHub sales repo | Live | Manual fulfillment |
+| GitHub sales repo | Live | Manual + order templates |
 | Vercel storefront | Live | https://content-scarcity-store-zyntra.vercel.app |
-| LocalStack + Terraform | Ready (local) | Order API + demo verify |
-| Wix store | Blocked | API product create constraints / account limits |
-| Whop | Blocked | No business account connected |
+| LocalStack + Terraform | Ready (local) | Order API demo |
+| **Payment Automation** | Ready (code) | On-chain verify + auto download |
+| Wix / Whop | Blocked | Account limits |
 
-## Next technical upgrades (optional)
+## Payment Automation
 
-1. Real BTC/USDT payment verification (replace demo)
-2. Auto-email delivery after `paid`
-3. Hard close switch on 31 Jan 2027
+Path: [`payment-automation/`](./payment-automation)
 
-## Buyer flow (current)
+- Verifies **USDT ERC-20** via Etherscan
+- Verifies **Bitcoin** via mempool.space
+- Issues time-limited download tokens
+- Serves product files automatically after `paid`
 
-1. Choose product
-2. Pay
-3. Send order template (`ORDER.md`)
-4. Receive files after confirmation
+Run locally:
+
+```bash
+cd payment-automation
+pip install -r requirements.txt
+cp .env.example .env
+uvicorn app.main:app --port 8080
+```
+
+## Buyer flow (automated)
+
+1. `POST /orders`
+2. Pay on-chain
+3. `POST /orders/{id}/verify` with tx id
+4. `GET /download/{token}`
+
+## Buyer flow (manual fallback)
+
+1. Pay
+2. Send [`ORDER.md`](./ORDER.md) template
+3. Manual delivery
