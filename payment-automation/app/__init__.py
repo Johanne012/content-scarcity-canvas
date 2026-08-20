@@ -1,0 +1,1 @@
+# Content Scarcity payment automation
