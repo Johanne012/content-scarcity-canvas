@@ -41,35 +41,24 @@ Full details: [`PRODUCTS.md`](./PRODUCTS.md)
 
 ---
 
-## Payment Options
-
-| Priority | Method | Notes |
-|----------|--------|-------|
-| 1 | **USDT (ERC-20)** | Preferred – stable value |
-| 2 | **Bitcoin Lightning** | Fast & low fees |
-| 3 | **Bitcoin On-chain** | Standard transfer |
-
-**USDT / Ethereum:**  
-`0xfe94ddcc4799199cea5c4debb0e9d2ebfb7c813d`
-
-**Bitcoin (On-chain):**  
-`bc1q4xr3k7ygeyc7s8nmt0ek4gdcelp6emfudtv99u`
-
-**Bitcoin Lightning:**  
-Request invoice after choosing the product.
-
-> Send USDT **only on Ethereum (ERC-20)**. Other networks = permanent loss.
-
-More details: [`PAYMENT.md`](./PAYMENT.md)
-
----
-
 ## How to Buy
 
 1. Choose your product.
-2. Send the exact amount (USD equivalent).
-3. Message with: **Transaction ID** + **Product name** + **Email**.
+2. Pay using one of the methods below.
+3. Send the order template from [`ORDER.md`](./ORDER.md).
 4. Receive files after confirmation.
+
+### Payment (priority)
+
+| Priority | Method | Address / Note |
+|----------|--------|----------------|
+| 1 | **USDT (ERC-20)** | `0xfe94ddcc4799199cea5c4debb0e9d2ebfb7c813d` |
+| 2 | **Bitcoin Lightning** | Request invoice after product choice |
+| 3 | **Bitcoin On-chain** | `bc1q4xr3k7ygeyc7s8nmt0ek4gdcelp6emfudtv99u` |
+
+> Send USDT **only on Ethereum (ERC-20)**. Other networks = permanent loss.
+
+Full instructions: [`PAYMENT.md`](./PAYMENT.md)
 
 ---
 
@@ -82,18 +71,27 @@ More details: [`PAYMENT.md`](./PAYMENT.md)
 
 ---
 
-## Technical Path (for developers)
+## Docs
 
-Local automated delivery stack using LocalStack + Terraform:
+| File | Purpose |
+|------|---------|
+| [`PRODUCTS.md`](./PRODUCTS.md) | Product catalog |
+| [`PAYMENT.md`](./PAYMENT.md) | Payment methods |
+| [`ORDER.md`](./ORDER.md) | Buyer order template |
+| [`FULFILLMENT.md`](./FULFILLMENT.md) | Seller fulfillment checklist |
+| [`STATUS.md`](./STATUS.md) | Live project status |
+| [`localstack-terraform/`](./localstack-terraform) | Local automated order stack |
+
+---
+
+## Technical Path (developers)
 
 ```bash
 cd localstack-terraform
 make all
 ```
 
-Includes S3, DynamoDB, Lambda, API Gateway for order creation and (demo) payment verification.
-
-See [`localstack-terraform/README.md`](./localstack-terraform/README.md).
+S3 + DynamoDB + Lambda + API Gateway for local order flow (demo payment verify).
 
 ---
 
