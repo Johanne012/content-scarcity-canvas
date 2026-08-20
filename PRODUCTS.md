@@ -1,39 +1,56 @@
-# Products
+# Products Catalog
 
-## 1. Content Scarcity Canvas — $29
+Sales close **31 January 2027**.
 
-The original one-page framework that explains how to apply scarcity to content.
+## Core Products
 
-Contains:
-- The core principle
-- The 5 scarcity levers
-- How to use the canvas
+### 1. Content Scarcity Canvas — $29
+The original one-page framework.
+
+- 5 scarcity levers explained clearly
 - Ready-to-use applications
+- Single digital artifact
 
----
+### 2. Scarcity Playbook — $79
+Expanded practical guide.
 
-## 2. Scarcity Playbook — $79
+- Extended explanations
+- Real examples across content types
+- Copy-ready templates
+- Decision guide: which lever to use when
 
-Expanded practical version of the framework.
+### 3. Complete Bundle — $129 (Recommended)
+Everything in one package.
 
-Includes:
-- Detailed breakdown of each lever
-- Examples for newsletters, social media, courses, live sessions, and personal brands
-- Templates and message examples
-- Decision guide for choosing the right lever
-
----
-
-## 3. Complete Bundle — $129
-
-Best value.
-
-Includes:
 - Content Scarcity Canvas
 - Full Scarcity Playbook
-- Implementation checklist
-- Ready-to-use scarcity message templates
+- Checklist + example messages
+
+## Add-ons
+
+### 4. Scarcity Checklist — $19
+Practical checklist to apply scarcity levers to any content piece.
+
+### 5. Message Templates — $39
+Ready-to-use message templates for newsletters, posts, and offers.
+
+### 6. Decision Tool — $49
+Simple tool to choose the right scarcity lever for your content type.
 
 ---
 
-**All products are available only until 31 January 2027.**
+## Recommended Path
+
+| If you want… | Buy |
+|--------------|-----|
+| Just the core idea | Canvas ($29) |
+| Practical depth | Playbook ($79) |
+| Everything | Bundle ($129) |
+
+---
+
+## Delivery
+
+Digital files delivered after payment confirmation.
+
+Payment instructions: [`PAYMENT.md`](./PAYMENT.md)
