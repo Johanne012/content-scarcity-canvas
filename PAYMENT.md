@@ -1,36 +1,46 @@
 # Payment Instructions
 
-## Accepted Methods (in order of preference)
+## Accepted Methods (priority order)
 
 ### 1. USDT (ERC-20) — Recommended
-- Network: **Ethereum (ERC-20)** only
+- Network: **Ethereum (ERC-20) only**
 - Address: `0xfe94ddcc4799199cea5c4debb0e9d2ebfb7c813d`
-- Send the exact USD equivalent in USDT
+- Send exact USD equivalent in USDT
+- Verify on: https://etherscan.io
 
-### 2. Bitcoin Lightning Network
-- Fast confirmation and low fees
-- Request an invoice after choosing your product
+### 2. Bitcoin Lightning
+- Fast + low fees
+- Request invoice after choosing product
+- Share payment hash after paying
 
 ### 3. Bitcoin On-chain
 - Address: `bc1q4xr3k7ygeyc7s8nmt0ek4gdcelp6emfudtv99u`
-- Wait for sufficient confirmations before delivery
+- Wait for confirmations before expecting delivery
+- Verify on any Bitcoin explorer
 
 ---
 
-## Important Warnings
+## Warnings
 
-- Do **not** send USDT on TRC-20, BEP-20, or any network other than Ethereum ERC-20.
-- Always double-check the address before sending.
+- Do **not** send USDT on TRC-20, BEP-20, Polygon, or any non-ERC-20 network.
+- Wrong network = permanent loss.
+- Always copy addresses carefully.
 - Keep your transaction ID.
 
 ---
 
 ## After Payment
 
-Send the following information:
+Use the template in [`ORDER.md`](./ORDER.md):
 
-1. Transaction hash / ID
-2. Product purchased
-3. Delivery email or preferred method
+1. Transaction hash / payment hash
+2. Product name
+3. Delivery email
 
-Delivery happens after payment is confirmed.
+Delivery starts after payment confirmation.
+
+---
+
+## Deadline
+
+Sales close permanently on **31 January 2027**.
